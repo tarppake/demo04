@@ -13,6 +13,8 @@ namespace HissiApplication
             Hissi hissi = new Hissi();
             hissi.Kerros = 1;
 
+            Console.WriteLine("Hissi on nyt kerroksessa 1");
+
             do
             {
                 Console.Write("anna kerros(1 - 5):  ");
