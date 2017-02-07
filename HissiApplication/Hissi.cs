@@ -20,10 +20,10 @@ namespace HissiApplication
             }
             set
             {
-                if (minKerros <= value) kerros = value;
+                if (value <= maxKerros) kerros = value;
                 else{
                     Console.WriteLine("syota olemassa oleva kerros!");
-                    Kerros = kerros;
+                 
                 }
             }
         }

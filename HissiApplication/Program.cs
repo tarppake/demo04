@@ -18,9 +18,9 @@ namespace HissiApplication
             do
             {
                 Console.Write("anna kerros(1 - 5):  ");
-                string line = Console.ReadLine();
+                int Kerros = Console.ReadLine(); //nii miten tää tuleekaan
 
-                Console.WriteLine("hissi on nyt kerroksessa " + line);
+                Console.WriteLine("hissi on nyt kerroksessa " + Kerros);
             } while(true);
 
         }
