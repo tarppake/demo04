@@ -8,11 +8,11 @@ namespace HissiApplication
 {
     class Hissi
     {
-        private readonly int maxKerros = 5;
+        //private readonly int maxKerros = 5;
         private readonly int minKerros = 1;
 
-        private int kerros;
-        public int Kerros
+        private int Kerros;
+        public int kerros
         {
             get
             {
@@ -20,7 +20,7 @@ namespace HissiApplication
             }
             set
             {
-                if (value <= maxKerros) kerros = value;
+                if (Kerros => minKerros) Kerros = kerros;
                 else{
                     Console.WriteLine("syota olemassa oleva kerros!");
                  
